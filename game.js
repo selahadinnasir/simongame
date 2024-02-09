@@ -1,4 +1,4 @@
-
+// the game is follow the game pattern by level amount 
 var buttonColours = ["red", "blue", "green", "yellow"];
 
 var gamePattern = [];
@@ -37,10 +37,10 @@ function checkAnswer(currentLevel) {
     } else {
       playSound("wrong");
       $("body").addClass("game-over");
-      $("#level-title").text("Game Over, Press Any Key to Restart");
+      $("#level-title").text("Game Over, Press Any Key to Restart Wildana");
 
       setTimeout(function () {
-        $("body").removeClass("game-over");
+        $("body").removeClass("game-over ");
       }, 200);
 
       startOver();
